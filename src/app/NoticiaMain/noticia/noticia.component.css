@@ -1,0 +1,15 @@
+.azul{
+    background-color: tomato !important;
+}
+:host ::ng-deep .p-menubar-end{
+    margin-left: 0 !important;
+}
+:host ::ng-deep ul#pn_id_1, .p-menubar-root-list {
+    justify-content: end !important;
+}
+:host ::ng-deep p-menubarsub {
+    flex-basis: 100% !important;
+}
+:host ::ng-deep .p-menubar-end{
+    display: none !important;
+}
